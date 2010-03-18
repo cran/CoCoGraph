@@ -1,0 +1,16 @@
+
+# export("dg") # "newCoCoTestObject", 
+
+# Functions missing:
+#  'myCmdPositions'
+
+import(dynamicGraph)
+
+# import(CoCoObjects)
+
+exportClasses("CoCoTestClass")
+
+exportMethods("setSlots", "initialize", "label", "width", "dg",
+              "testEdge", "subModifyModel", "modifyModel",
+              # "setGraphComponents", "graphComponents",
+              "setGraphEdges", "graphEdges")
